@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<meta charset="uft-8">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+	<div>
+		<h1>Quiz do Front-end</h1>
+		<form id="formulario-quiz">
+			
+			<ol class="pergunta" type="A">
+				<h3><strong>1</strong>. O que significa a sigla HTML?</h3>
+				<li class="questao"><input type="radio" name="html" value="errado"> 
+				Hyperlinks and Text Markup Language</li>
+
+				<li class="questao"><input type="radio" name="html" value="certo">
+				Hyper Text Markup Language </li>
+
+				<li class="questao"><input type="radio" name="html" value="errado">
+				Home Tool Markup Language</li>
+				
+			</ol>
+
+			<ol class="pergunta" type="A">
+				<h3><strong>2</strong>. O que significa a sigla CSS?</h3>
+				<li class="questao"><input type="radio"  name="css" value="errado"> 
+				Creative Style Sheets</li>
+
+				<li class="questao"><input type="radio"  name="css" value="certo">
+				Cascading Style Sheets</li>
+
+				<li class="questao"><input type="radio"   name="css" value="errado">
+				Colorful Style Sheets</li>
+			</ol>
+				
+			<ol class="pergunta" type="A">
+				<h3><strong>3</strong>. Dentro de qual elemento HTML nós colocamos o JavaScript?</h3>
+				<li class="questao"><input type="radio"  name="js" value="certo"> 
+				script</li>
+
+				<li class="questao"><input type="radio"  name="js" value="errado">
+				js </li>
+
+				<li class="questao"><input type="radio"  name="js" value="errado">
+				javascript</li>
+			</ol>
+			
+			<button id="botao">Enviar</button>
+			<span id="resposta"></span>
+		</form>
+	</div>
+	<script src="quiz.js"></script>
+	</body>
+</html>
